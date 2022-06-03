@@ -98,11 +98,11 @@ while [ ! -z "$1" ] ; do
 		usage
 		exit
 		;;
-    -e|-E|--enviroment)
-        checkparm $2
-        env_dir="$2"
-        check_env_dir
-        ;;
+	-e|-E|--enviroment)
+		checkparm $2
+		env_dir="$2"
+		check_env_dir
+		;;
 	-c|-C|--config)
 		checkparm $3
 		project_config="$3"
